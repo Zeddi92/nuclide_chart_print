@@ -9,7 +9,7 @@ Dieses Projekt erstellt eine 3D-Druckversion der Nuklidkarte, die auf den Daten 
 
 ## Anleitung
 
-1. Installiere die erforderlichen Python-Pakete: numpy, stl
+1. Installiere die erforderlichen Python-Pakete: numpy, stl, numpy_stl
 2. Lade die Nuklidkarten-Daten herunter und speichere sie in das Verzeichnis `Data/` als `data.csv`
 3. Passe die Parameter in der Datei `create_isotope_data.py` an, um die Ausgabe anzupassen:
    - `invertedView`: Bestimmt die Anzeige der Nuklidkarte (invertierte Ansicht oder nicht)
