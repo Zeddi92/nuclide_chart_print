@@ -21,7 +21,7 @@ def read_csv_data(csv_datei, specific_masses_only=False, min_mass=None, max_mass
             half_life_sec = float(zeile['half_life_sec'].strip()) if zeile['half_life_sec'].strip() else -1
 
             # Überprüfe die Massenzahl
-            if specific_masses_only and (z < min_mass or z > max_mass):
+            if specific_masses_only and (z+n < min_mass or z+n > max_mass):
                 continue
 
             # Nuklid-Daten zum Wörterbuch hinzufügen

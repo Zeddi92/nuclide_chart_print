@@ -69,7 +69,7 @@ for nuklid in nuklide_daten:
     energy = nuklid['binding']
 
     # Ignoriere Zeilen mit Bindungswert von -1 oder Massenzahlen außerhalb des Bereichs
-    if energy == -1 or (specific_masses_only and (proton < min_mass or proton > max_mass)):
+    if energy == -1 or (specific_masses_only and (proton+neutron < min_mass or proton+neutron > max_mass)):
         continue
 
     # Berechne die verschobene Position basierend auf den Skalierungsfaktoren
