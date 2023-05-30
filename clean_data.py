@@ -5,7 +5,7 @@ import math
 from geometry import create_cube
 from csv_reader import read_csv_data
 
-# Set parameters
+# Setze Parameter
 invertedView = True
 logScale = False
 base_height = 5     # Die Dicke der Platte soll 5mm sein
@@ -34,7 +34,6 @@ nuklide_daten = []
 # CSV-Daten lesen
 nuklide_daten = read_csv_data(csv_datei, specific_masses_only, min_mass, max_mass)
 
-# If invertedView is true, calculate the maximum energy
 max_energy = max(nuklide_daten, key=lambda x: x['binding'])
 height_ratio = print_height / max_energy['binding']
 
