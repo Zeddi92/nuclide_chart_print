@@ -5,7 +5,7 @@ Dieses Projekt erstellt eine 3D-Druckversion der Nuklidkarte, die auf den Daten 
 ## Quellen
 
 - Nuklidkarten-Daten: IAEA - Nuclear Data Section [Link zur Quelle](https://www-nds.iaea.org/relnsd/vcharthtml/VChartHTML.html)
-- Inspiration und Anleitung: "3D-Druck im Physikunterricht" von Alexander Pusch und Stefan Heusler [Link zum Paper](https://www.pro-physik.de/restricted-files/143556)
+- Inspiration: "3D-Druck im Physikunterricht" von Alexander Pusch und Stefan Heusler [Link zum Paper](https://www.pro-physik.de/restricted-files/143556)
 
 ## Anleitung
 
