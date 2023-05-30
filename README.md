@@ -24,7 +24,7 @@ Dieses Projekt erstellt eine 3D-Druckversion der Nuklidkarte, die auf den Daten 
    - `max_length`: Maximale Länge der Nuklidkarte in mm
    - `column_width`: Manuell festgelegte Breite der Säulen in mm
    - `column_length`: Manuell festgelegte Länge der Säulen in mm
-4. Führe das Skript `create_isotope_data.py` aus, um die 3D-Druckdatei `isotope_data.stl` zu generieren
+4. Führe das Skript `clean_data.py` aus, um die 3D-Druckdatei `isotope_data.stl` zu generieren
 5. Verwende die generierte STL-Datei, um die Nuklidkarte auf einem 3D-Drucker zu drucken
 
 Weitere Anpassungen und Optionen können im Skript vorgenommen werden, um die Ausgabe anzupassen.
