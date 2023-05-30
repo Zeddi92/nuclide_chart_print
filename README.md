@@ -10,10 +10,10 @@ Dieses Projekt erstellt eine 3D-Druckversion der Nuklidkarte, die auf den Daten 
 ## Anleitung
 
 1. Installiere die erforderlichen Python-Pakete: numpy, stl, numpy_stl
-2. Lade die Nuklidkarten-Daten herunter und speichere sie in das Verzeichnis `Data/` als `data.csv`
-3. Passe die Parameter in der Datei `create_isotope_data.py` an, um die Ausgabe anzupassen:
+2. Lade die Nuklidkarten-Daten herunter und speichere sie in das Verzeichnis `Data/` als `data.csv` (Alternativ nutze die API: https://www-nds.iaea.org/relnsd/v1/data?fields=ground_states&nuclides=all)
+3. Passe die Parameter in der Datei `clean_data.py` an, um die Ausgabe zu individualisieren:
    - `invertedView`: Bestimmt die Anzeige der Nuklidkarte (invertierte Ansicht oder nicht)
-   - `logScale`: Bestimmt die Skalierung der Höhe (logarithmische Skala oder nicht)
+   - `logScale`: Bestimmt die Skalierung der Höhe (logarithmische Skala oder nicht - noch nicht gut implementiert)
    - `base_height`: Die Dicke der unterliegenden Platte in mm
    - `print_height`: Die maximale Druckhöhe in mm
    - `specific_masses_only`: Begrenzt die Nuklide auf einen bestimmten Massenzahlenbereich
